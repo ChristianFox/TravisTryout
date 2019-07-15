@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
+options: "389bbde9743f1f3f534dc054e87a55f4"
+build_time: [1563156219, 143073000]
+inputs:
+  "/Volumes/Storage/_Dev - Projects/KFX Projects - Experimental/_Third Party Libraries : Services/Travis/TravisTester/TravisTester/ViewController.swift": [9223372036, 854775807]
+  "/Volumes/Storage/_Dev - Projects/KFX Projects - Experimental/_Third Party Libraries : Services/Travis/TravisTester/TravisTester/Calculator.swift": [9223372036, 854775807]
+  "/Volumes/Storage/_Dev - Projects/KFX Projects - Experimental/_Third Party Libraries : Services/Travis/TravisTester/TravisTester/AppDelegate.swift": [9223372036, 854775807]
