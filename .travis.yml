@@ -6,7 +6,7 @@ xcode_scheme: TravisTester
 #xcode_sdk: iphonesimulator11.1
 
 script:
- - xcodebuild -allowProvisioningUpdates
+ - xcodebuild -project TravisTester.xcodeproj -scheme TravisTester -allowProvisioningUpdates
 
  before_install:
   - export IOS_SIMULATOR_UDID=`instruments -s devices | grep "iPhone 6s (10.1" | awk -F '[ ]' '{print $4}' | awk -F '[\[]' '{print $2}' | sed 's/.$//'`
