@@ -12,7 +12,8 @@
 		5B05BE9E22DC0FA300DCE7DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B05BE9C22DC0FA300DCE7DB /* Main.storyboard */; };
 		5B05BEA022DC0FA500DCE7DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B05BE9F22DC0FA500DCE7DB /* Assets.xcassets */; };
 		5B05BEA322DC0FA500DCE7DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B05BEA122DC0FA500DCE7DB /* LaunchScreen.storyboard */; };
-		5B05BEAE22DC0FA500DCE7DB /* TravisTesterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B05BEAD22DC0FA500DCE7DB /* TravisTesterTests.swift */; };
+		5B05BEB922DC0FC400DCE7DB /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B05BEB822DC0FC400DCE7DB /* Calculator.swift */; };
+		5B05BEBB22DC101700DCE7DB /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B05BEBA22DC101700DCE7DB /* CalculatorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +35,9 @@
 		5B05BEA222DC0FA500DCE7DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B05BEA422DC0FA500DCE7DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B05BEA922DC0FA500DCE7DB /* TravisTesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravisTesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B05BEAD22DC0FA500DCE7DB /* TravisTesterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravisTesterTests.swift; sourceTree = "<group>"; };
 		5B05BEAF22DC0FA500DCE7DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B05BEB822DC0FC400DCE7DB /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		5B05BEBA22DC101700DCE7DB /* CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				5B05BE9822DC0FA300DCE7DB /* AppDelegate.swift */,
 				5B05BE9A22DC0FA300DCE7DB /* ViewController.swift */,
+				5B05BEB822DC0FC400DCE7DB /* Calculator.swift */,
 				5B05BE9C22DC0FA300DCE7DB /* Main.storyboard */,
 				5B05BE9F22DC0FA500DCE7DB /* Assets.xcassets */,
 				5B05BEA122DC0FA500DCE7DB /* LaunchScreen.storyboard */,
@@ -90,7 +93,7 @@
 		5B05BEAC22DC0FA500DCE7DB /* TravisTesterTests */ = {
 			isa = PBXGroup;
 			children = (
-				5B05BEAD22DC0FA500DCE7DB /* TravisTesterTests.swift */,
+				5B05BEBA22DC101700DCE7DB /* CalculatorTests.swift */,
 				5B05BEAF22DC0FA500DCE7DB /* Info.plist */,
 			);
 			path = TravisTesterTests;
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B05BE9B22DC0FA300DCE7DB /* ViewController.swift in Sources */,
+				5B05BEB922DC0FC400DCE7DB /* Calculator.swift in Sources */,
 				5B05BE9922DC0FA300DCE7DB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,7 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B05BEAE22DC0FA500DCE7DB /* TravisTesterTests.swift in Sources */,
+				5B05BEBB22DC101700DCE7DB /* CalculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
