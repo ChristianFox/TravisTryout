@@ -1,0 +1,6 @@
+
+language: objective-c
+osx_image: xcode10.2
+xcode_project: TravisTester.xcodeproj
+xcode_scheme: TravisTester
+#xcode_sdk: iphonesimulator11.1
